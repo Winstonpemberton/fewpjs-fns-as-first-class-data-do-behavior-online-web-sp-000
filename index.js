@@ -15,10 +15,10 @@ function greet(time){
   let givenHour = parseInt(givenTime[0]);
   if (givenHour < 12){
     return "Good Morning";
-    
+
   } else if (nowHour > 17){
     return "Good Evening";
-    
+
   }
   return "Good Afternoon";
 }
